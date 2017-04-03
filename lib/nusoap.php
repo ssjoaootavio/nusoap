@@ -3121,8 +3121,9 @@ class soap_transport_http extends nusoap_base {
 		if ($cErr != '') {
         	$err = 'cURL ERROR: '.curl_errno($this->ch).': '.$cErr.'<br>';
         	// TODO: there is a PHP bug that can cause this to SEGV for CURLINFO_CONTENT_TYPE
+			// TODO: Comentado a inserção na variavel, verificar problema
 			foreach(curl_getinfo($this->ch) as $k => $v){
-				$err .= "$k: $v<br>";
+				// $err .= "$k: $v<br>";
 			}
 			$this->debug($err);
 			$this->setError($err);
