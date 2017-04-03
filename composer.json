@@ -1,5 +1,5 @@
 {
-    "name": "deviservi/nusoap",
+    "name": "ssjoaootavio/nusoap",
     "type": "library",
     "description": "NuSOAP PHP library re-packaged for Packagist/Composer",
     "keywords": ["soap","nusoap"],
@@ -12,6 +12,9 @@
         {
             "name": "Scott Nichol",
             "homepage": "http://sourceforge.net/u/snichol/profile/"
+        },
+        {
+            "name": "Joao Santos"
         }
         ],
     "require": {
